@@ -1,6 +1,15 @@
 # PHP, Redis, and You!
 
-This is an example project.
+This is an example PHP project which uses Redis to store and retreive some data. It was buit for the
+[Ann Arbor PHP MySQL Meetup](http://www.meetup.com/ann-arbor-php-mysql/) on 2013-06-22. Even if you're
+not in the meetup, feel free to follow along ;).
+
+This README.md document will go over downloading and installation instructions. For a copy of the
+presentation notes, check out the [PRESENTATION.md](PRESENTATION.md) document.
+
+## Play with Redis
+
+[try.redis.io](http://try.redis.io) - If you don't want to install Redis but want to experiment
 
 ## Redis Installation
 
@@ -40,4 +49,4 @@ Pick a solution based on your OS.
 
 * [redis.io/commands](http://redis.io/commands) - Official Documentation on Redis Commands
 * [github.com/nrk/predis](https://github.com/nrk/predis) - Raw PHP Redis Library
-* [thomashunter.name/blog/tag/redis](http://thomashunter.name/blog/tag/redis/) - Shameless Self Plug ;)
+* [github.com/tlhunter/whisper](https://github.com/tlhunter/whisper/blob/master/server.js) - More Complex Project Example
