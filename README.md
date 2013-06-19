@@ -17,7 +17,7 @@ Pick a solution based on your OS.
 
 ### Official Download Page
 
-[redis.io/download](http://redis.io/download)
+* [redis.io/download](http://redis.io/download)
 
 ### OS X via HomeBrew
 
@@ -25,17 +25,23 @@ Pick a solution based on your OS.
 
 ### OS X for the Non-Hacker
 
-[Redis OS X PKG](http://rudix.googlecode.com/files/redis-2.6.9-0.pkg)
+* [Redis OS X PKG](http://rudix.googlecode.com/files/redis-2.6.9-0.pkg)
+
+### Ubuntu Linux
+
+	apt-get install redis-server
 
 ### Debian Linux
 
-[Installing Redis on Debian as a Service](http://thomashunter.name/blog/installing-redis-on-debian/)
+* [Installing Redis on Debian as a Service](http://thomashunter.name/blog/installing-redis-on-debian/)
 
 ### Windows
 
-[Redis Windows Binaries](https://github.com/MSOpenTech/redis/tree/2.6/bin/release)
+* [Redis Windows Binaries](https://github.com/MSOpenTech/redis/tree/2.6/bin/release)
 
 ## Project Installation
+
+This'll get you my sample PHP and Redis application, assuming you've got GIT installed and configured.
 
 	mkdir php-and-redis-example && cd php-and-redis-example
 	git init
@@ -50,3 +56,4 @@ Pick a solution based on your OS.
 * [redis.io/commands](http://redis.io/commands) - Official Documentation on Redis Commands
 * [github.com/nrk/predis](https://github.com/nrk/predis) - Raw PHP Redis Library
 * [github.com/tlhunter/whisper](https://github.com/tlhunter/whisper/blob/master/server.js) - More Complex Project Example
+* [github.com/tlhunter/php-and-redis-example](https://github.com/tlhunter/php-and-redis-example) - This project
