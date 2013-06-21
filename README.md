@@ -57,3 +57,4 @@ This'll get you my sample PHP and Redis application, assuming you've got GIT ins
 * [github.com/nrk/predis](https://github.com/nrk/predis) - Raw PHP Redis Library
 * [github.com/tlhunter/whisper](https://github.com/tlhunter/whisper/blob/master/server.js) - More Complex Project Example
 * [github.com/tlhunter/php-and-redis-example](https://github.com/tlhunter/php-and-redis-example) - This project
+* [benchmarking-memcached-and-redis-clients](http://alekseykorzun.com/post/53283070010/benchmarking-memcached-and-redis-clients) - Redis vs. Predis vs. Memcache Benchmark

@@ -1,5 +1,9 @@
 #!/usr/bin/env php
 <?php
+
+# N.B. : Predis is rediculously slow, but it's easier than installing binaries for the presentation:
+#       http://alekseykorzun.com/post/53283070010/benchmarking-memcached-and-redis-clients
+
 require 'predis/lib/Predis/Autoloader.php';
 Predis\Autoloader::register();
 $redis = new Predis\Client();

@@ -16,7 +16,9 @@ May these notes supplement you in your harsh journey.
 
 * Perhaps you'd like to do some caching
 * You like Memcache but want guaranteed persistance
+  * [Memcache doesn't guarantee](http://php.net/manual/en/memcache.set.php#refsect1-memcache.set-description)
 * You want speed
+  * Although, it's about [the same speed as Memcache anyway](http://alekseykorzun.com/post/53283070010/benchmarking-memcached-and-redis-clients)
 * It's OK to persist to disk occasionally
   * Although, you can tell Redis to persist to disk on every write
 
